@@ -3,9 +3,11 @@
 import Vue from 'vue'
 import App from './App'
 import VueRouter from 'vue-router'
+import Qs from 'axios'
 
 Vue.config.productionTip = false
 Vue.use(VueRouter)
+Vue.prototype.$http=Qs
 
 //定义组件
 const first={template:'<div><h1>这是第一个页面</h1></div>'};
