@@ -1,6 +1,6 @@
 # vuerooter
 
-> A Vue.js project
+> 新手入门 vue-router的初步学习记录
 
 ## Build Setup
 
